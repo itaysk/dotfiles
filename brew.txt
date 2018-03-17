@@ -1,0 +1,27 @@
+bash
+bash-completion@2
+zsh
+zplug
+vim
+#vim-plug #not on brew :(
+tmux
+git
+grep
+gnu-sed
+go
+ruby
+#node
+yarn
+nvm
+python
+python3
+jq
+jid
+yq
+rsync
+ssldump
+tree
+watch
+kubernetes-cli
+kubernetes-helm
+#https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/ (safe to install, doesn't override default unless specified)
