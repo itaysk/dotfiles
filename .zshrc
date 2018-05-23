@@ -5,6 +5,8 @@ SAVEHIST=1000
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
 bindkey -v
+#fix backspace to work in insert mode like expected in vim
+eval "$(bindkey -M viins -L | sed -n -e 's/vi-backward-delete-char/backward-delete-char/p')"
 
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh
