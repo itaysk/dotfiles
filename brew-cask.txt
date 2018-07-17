@@ -1,3 +1,4 @@
+alfred
 java
 macdown
 osxfuse
@@ -19,8 +20,8 @@ gimp
 sourcetree
 teamviewer
 slack
-minikube
 google-cloud-sdk
 font-hack-nerd-font
 ngrok
 robo-3t
+
