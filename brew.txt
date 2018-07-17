@@ -26,4 +26,4 @@ tree
 watch
 kubernetes-cli
 kubernetes-helm
-telepresence
+datawire/blackbird/telepresence
