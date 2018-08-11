@@ -10,6 +10,7 @@ vim
 zsh
 zplug
 tmux
+fzf
 go
 ruby
 #node
