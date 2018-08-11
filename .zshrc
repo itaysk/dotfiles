@@ -23,5 +23,10 @@ if ! zplug check; then
 fi
 zplug load
 
+# fuzzy search in history (fzf dependency)
+fh() {
+  print -z $( ([ -n "$ZSH_NAME" ] && fc -l 1 || history) | fzf +s --tac | sed 's/ *[0-9]* *//')
+}
+   
 . ~/.shell_profile
 
