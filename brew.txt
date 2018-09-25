@@ -5,6 +5,7 @@ coreutils
 git
 grep
 gnu-sed
+gettext
 vim
 #vim-plug #not on brew :(
 zsh
