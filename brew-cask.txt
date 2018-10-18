@@ -1,6 +1,5 @@
 alfred
 java
-macdown
 osxfuse
 qbittorrent
 wireshark
@@ -17,11 +16,6 @@ firefox
 visual-studio-code
 vlc
 gimp
-sourcetree
-teamviewer
 slack
 google-cloud-sdk
-font-hack-nerd-font
 ngrok
-robo-3t
-
