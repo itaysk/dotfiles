@@ -1,0 +1,5 @@
+- tap to click
+- disable triple click lookup
+- add hebrew input, automatically switch to document source, set shortcut
+- enable zoom with gesture
+- vim-plug is not on brew
