@@ -1,4 +1,6 @@
-#https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/ (safe to install, doesn't override default unless specified)
+zsh
+zplug
+tmux
 bash
 bash-completion@2
 coreutils
@@ -7,14 +9,9 @@ grep
 gnu-sed
 gettext
 vim
-#vim-plug #not on brew :(
-zsh
-zplug
-tmux
 fzf
 go
 ruby
-#node
 yarn
 nvm
 python
