@@ -1,3 +1,4 @@
+google-chrome
 alfred
 java
 osxfuse
