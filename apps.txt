@@ -1,6 +1,0 @@
-/Applications/Twitter.app
-/Applications/Google Chrome.app
-/Applications/feedly.app
-/Applications/GIPHY CAPTURE.app
-
-
