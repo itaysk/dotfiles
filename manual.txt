@@ -1,5 +1,13 @@
-- tap to click
-- disable triple click lookup
-- add hebrew input, automatically switch to document source, set shortcut
-- enable zoom with gesture
-- vim-plug is not on brew
+- Mac settings
+	- Trackpad
+		- enable tap to click
+		- disable look up (middleclick will bind to 3 finger click)
+	- Keyboard
+		- add Hebrew input
+		- enable automatically switch to document language
+		- set opt+space language switch shortcut (cmd+space is for alfred, ctrl+space is for intellisense)
+	- Accessibility
+		- enable zoom with gesture
+- vim
+	- install vim-plug (not on brew)
+	- run `:PlugInstall` in vim 
