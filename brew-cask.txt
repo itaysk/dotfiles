@@ -12,7 +12,7 @@ simplenote
 zoomus
 iterm2
 whatsapp
-docker
+minikube
 firefox
 visual-studio-code
 vlc

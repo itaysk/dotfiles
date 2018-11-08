@@ -23,6 +23,10 @@ rsync
 ssldump
 tree
 watch
+hyperkit
+docker-machine
+docker-machine-driver-hyperkit
+docker
 kubernetes-cli
 kubernetes-helm
 socat datawire/blackbird/telepresence
