@@ -11,3 +11,5 @@
 - vim
 	- install vim-plug (not on brew)
 	- run `:PlugInstall` in vim 
+- terminal
+	- disable macOS accent popup: `defaults write -g ApplePressAndHoldEnabled -bool false`
