@@ -6,6 +6,8 @@
 		- add Hebrew input
 		- enable automatically switch to document language
 		- set opt+space language switch shortcut (cmd+space is for alfred, ctrl+space is for intellisense)
+		- Key Repead: Fast
+		- Delay Until Repeat: Short
 	- Accessibility
 		- enable zoom with gesture
 	- Sound
