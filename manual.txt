@@ -8,6 +8,8 @@
 		- set opt+space language switch shortcut (cmd+space is for alfred, ctrl+space is for intellisense)
 	- Accessibility
 		- enable zoom with gesture
+	- Sound
+		- Show volume in menu bar
 - vim
 	- install vim-plug (not on brew)
 	- run `:PlugInstall` in vim 
