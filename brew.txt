@@ -10,6 +10,7 @@ gnu-sed
 gettext
 vim
 fzf
+z
 go
 ruby
 yarn
