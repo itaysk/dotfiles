@@ -8,6 +8,7 @@ git
 grep
 gnu-sed
 gettext
+gawk
 vim
 fzf
 z
