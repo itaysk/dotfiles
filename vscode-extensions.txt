@@ -1,0 +1,14 @@
+ban.spellright
+bungcip.better-toml
+eamodio.gitlens
+humao.rest-client
+ipedrazas.kubernetes-snippets
+ms-kubernetes-tools.vscode-kubernetes-tools
+ms-python.python
+ms-vscode.cpptools
+ms-vscode.Go
+ms-vsliveshare.vsliveshare
+PeterJausovec.vscode-docker
+redhat.vscode-yaml
+vscodevim.vim
+zxh404.vscode-proto3
