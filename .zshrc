@@ -8,7 +8,7 @@ bindkey -v
 #fix backspace to work in insert mode like expected in vim
 eval "$(bindkey -M viins -L | sed -n -e 's/vi-backward-delete-char/backward-delete-char/p')"
 
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=/usr/local/opt/zplug #when not installed with brew this would be ${HOME}/.zplug
 source $ZPLUG_HOME/init.zsh
 
 zplug mafredri/zsh-async, from:github
