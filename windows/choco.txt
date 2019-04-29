@@ -1,0 +1,8 @@
+vscode
+git
+googlechrome
+firefox
+7zip
+autohotkey
+#minikube
+docker-desktop

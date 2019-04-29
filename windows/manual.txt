@@ -1,0 +1,6 @@
+Settings -> For Developers -> Apply all
+install choco
+install wsl
+use ahk
+
+

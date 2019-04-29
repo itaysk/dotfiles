@@ -1,0 +1,10 @@
+- manual.txt - steps to perform manually
+- choco.txt - list of packages to install with Chocolatey (https://chocolatey.org)
+- free80.cmd - free port 80 by stopping (disabling) the windows service that occupies it
+- swapkeys.reg - permanently swaps the Win and the Alt key, so that it is similar to how it is on mac
+- mackeys.ahk - autohotkey script to map common keyboard actions to their mac versions (https://www.autohotkey.com)
+- wsl - to be run within the Windows Subsystem for Linux, running Ubuntu.
+  - first take everything that's relevant from the mac dotfiles (all the terminal stuff)
+  - apt.txt - packages to install using apt
+  - apt-supplament.txt - things that didn't have packages on apt, install manually
+  - wsl-docker.sh - a script to fix some stuff for using docker client in wsl with docker daemon in windows

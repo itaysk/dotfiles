@@ -1,0 +1,25 @@
+#kubectl
+sudo apt-get update && sudo apt-get install -y apt-transport-https
+curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubectl
+
+#helm
+curl https://raw.githubusercontent.com/helm/helm/master/scripts/get | bash
+
+#zplug
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
+
+#z
+sudo curl https://raw.githubusercontent.com/rupa/z/master/z.sh -o /usr/local/etc/profile.d/z.sh --create-dirs
+sudo chmod -R +x /usr/local/etc/profile.d
+
+#node.js nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+
+#docker
+curl -L https://download.docker.com/linux/static/stable/x86_64/docker-18.09.5.tgz -o /tmp/docker.tar.gz
+tar -xzf /tmp/docker.tar.gz docker/docker --strip-components=1 --directory /tmp/docker
+sudo mv /tmp/docker /usr/local/bin/docker
+rm -rf /tmp/docker.tar.gz
