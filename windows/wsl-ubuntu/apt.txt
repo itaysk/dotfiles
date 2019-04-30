@@ -18,3 +18,4 @@ rsync
 ssldump
 tree
 watch
+shellcheck

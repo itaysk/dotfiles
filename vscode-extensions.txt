@@ -12,3 +12,4 @@ PeterJausovec.vscode-docker
 redhat.vscode-yaml
 vscodevim.vim
 zxh404.vscode-proto3
+timonwong.shellcheck

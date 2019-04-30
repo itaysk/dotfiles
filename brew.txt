@@ -32,3 +32,4 @@ docker
 kubernetes-cli
 kubernetes-helm
 socat datawire/blackbird/telepresence
+shellcheck
