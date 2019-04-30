@@ -1,0 +1,4 @@
+{
+    "shellcheck.useWSL": true,
+    "terminal.integrated.shell.windows": "ubuntu.exe"
+}
