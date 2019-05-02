@@ -3,4 +3,5 @@ install choco
 install wsl
 use ahk
 
+docker-> settings-> general -> Expose daemon on tco://localhost:2375 without TLS
 
