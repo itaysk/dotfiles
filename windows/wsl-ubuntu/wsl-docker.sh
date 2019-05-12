@@ -4,3 +4,4 @@ sudo mkdir /c
 sudo mount --bind /mnt/c /c
 
 echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.shell_profile
+export KUBECONFIG=KUBECONFIG:$(wslpath $(cmd.exe /C "echo %USERPROFILE%" | tr -d '\r'))/.kube/config
