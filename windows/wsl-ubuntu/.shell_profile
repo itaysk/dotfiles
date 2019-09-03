@@ -1,0 +1,5 @@
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
+export DOCKER_HOST=tcp://localhost:2375
+. "$HOMEBREW_PREFIX/etc/profile.d/z.sh"

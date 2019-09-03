@@ -1,6 +1,7 @@
 Settings -> For Developers -> Apply all
 install choco
 install wsl
+install brew for linux on wsl (and with it install asdf)
 use ahk
 
 docker-> settings-> general -> Expose daemon on tcp://localhost:2375 without TLS
