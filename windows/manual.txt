@@ -3,7 +3,5 @@ install choco
 install wsl
 use ahk
 
-docker-> settings-> general -> Expose daemon on tco://localhost:2375 without TLS
+docker-> settings-> general -> Expose daemon on tcp://localhost:2375 without TLS
 docker-> settings-> kubernetes -> Enable Kubernetes
-
-
