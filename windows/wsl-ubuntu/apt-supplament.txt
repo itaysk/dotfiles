@@ -20,6 +20,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 #docker
 curl -L https://download.docker.com/linux/static/stable/x86_64/docker-18.09.5.tgz -o /tmp/docker.tar.gz
-tar -xzf /tmp/docker.tar.gz docker/docker --strip-components=1 --directory /tmp/docker
+tar --directory /tmp/docker -xzf /tmp/docker.tar.gz docker/docker --strip-components=1
 sudo mv /tmp/docker /usr/local/bin/docker
 rm -rf /tmp/docker.tar.gz
