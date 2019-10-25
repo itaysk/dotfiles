@@ -1,13 +1,13 @@
 - Mac settings
 	- Trackpad
 		- enable tap to click
-		- disable look up (middleclick will bind to 3 finger click)
 	- Keyboard
 		- add Hebrew input
 		- enable automatically switch to document language
-		- set opt+space language switch shortcut (cmd+space is for alfred, ctrl+space is for intellisense)
-		- Key Repead: Fast
+		- Key Repeat: Fast
 		- Delay Until Repeat: Short
+		- Shortcuts
+			Spotlight: disable all (in favor of Alfred)
 	- Accessibility
 		- enable zoom with gesture
 	- Sound
