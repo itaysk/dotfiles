@@ -4,6 +4,7 @@ zplug
 tmux
 bash
 bash-completion@2
+shellcheck
 coreutils
 git
 grep
@@ -13,12 +14,6 @@ gawk
 vim
 fzf
 z
-go
-ruby
-yarn
-nvm
-python
-python3
 jq
 jid
 yq
@@ -26,11 +21,3 @@ rsync
 ssldump
 tree
 watch
-hyperkit
-docker-machine
-docker-machine-driver-hyperkit
-docker
-kubernetes-cli
-kubernetes-helm
-socat datawire/blackbird/telepresence
-shellcheck

@@ -12,11 +12,8 @@ simplenote
 zoomus
 iterm2
 whatsapp
-minikube
-firefox
 visual-studio-code
 vlc
 gimp
 slack
-google-cloud-sdk
-ngrok
+docker
