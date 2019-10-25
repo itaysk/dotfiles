@@ -1,19 +1,28 @@
+# basics
 google-chrome
 alfred
 java
 osxfuse
-qbittorrent
-wireshark
 middleclick
 spectacle
 karabiner-elements
 scroll-reverser
+
+# dev
+visual-studio-code
+iterm2
+wireshark
+docker
+
+# productivity
 simplenote
 zoomus
-iterm2
 whatsapp
-visual-studio-code
-vlc
-gimp
 slack
-docker
+microsoft-office
+microsoft-teams
+
+# misc
+vlc
+qbittorrent
+gimp
