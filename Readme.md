@@ -6,11 +6,12 @@
 1. copy ./home to the home directory
 
 ### packages
-1. install brew, instructions at `brew.sh`
+1. install brew, instructions at `https://brew.sh`
+1. Install asdf (so that it can satisfy brew "Requirements" instad of brew installing duplicates): `brew install asdf`
+1. install asdf packages: `./asdf.sh`
 1. review `brew.txt` and `brew-cask.txt`, comment out (using `#`) unneeded packages (note some stuff will be installed using asdf later, like language runtimes)
 1. install brew packages: `cat ./brew.txt | grep -v '^#' | xargs brew install`
 1. install brew cask packages: `cat ./brew-cask.txt | grep -v '^#' | xargs brew cask install`
-1. install asdf packages: `./asdf.sh`
 
 ### ssh
 1. create ssh key: `ssh-keygen`
