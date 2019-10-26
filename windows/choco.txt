@@ -1,8 +1,18 @@
-vscode
-git
+# basics
 googlechrome
 firefox
-7zip
 autohotkey
-#minikube
+7zip
+
+# dev
+vscode
+git
 docker-desktop
+
+# productivity
+simplenote
+zoomus
+whatsapp
+slack
+microsoft-office-deployment
+microsoft-teams
