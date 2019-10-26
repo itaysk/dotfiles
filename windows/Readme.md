@@ -28,6 +28,9 @@
 1. install asdf packages: `./asdf.sh`
 1. review `brew.txt` and `brew-cask.txt`, comment out (using `#`) unneeded packages (note some stuff were installed using asdf, like language runtimes)
 
+#### additional settings in the main (mac) readme
+for setting up ssh, tmux, vim, etc.
+
 ### Docker
 Docker engine will not run in WSL, but using Docker for Windows. Docker CLI will be installed in WSL and configure to use the Docker for Windows engine.
 
@@ -37,5 +40,5 @@ docker-> settings-> kubernetes -> Enable Kubernetes
 1. if using wsl, run: `wsl-docker.sh` (one time)
 1. install docker cli: `docker-cli.sh`
 
-### additional settings in the main (mac) readme
-for setting up ssh, tmux, vim, etc.
+### Fancy Zones
+https://github.com/microsoft/PowerToys/blob/master/src/modules/fancyzones/README.md
