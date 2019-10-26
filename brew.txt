@@ -17,6 +17,5 @@ jq
 jid
 yq
 rsync
-ssldump
 tree
 watch
