@@ -4,6 +4,7 @@
 1. open terminal, run `xcode-select --install` (to enable basic cli tools)
 1. clone this repo `git clone dotfiles` and cd into
 1. copy `./home` to the home directory
+1. run `mac-login.sh` to add apps to startup
 
 ### packages
 1. install brew, instructions at `https://brew.sh`
