@@ -8,6 +8,8 @@
 		- Delay Until Repeat: Short
 		- Shortcuts
 			Spotlight: disable all (in favor of Alfred)
+		- Text
+			Spelling: U.S. English
 	- Accessibility
 		- enable zoom with gesture
 	- Sound
