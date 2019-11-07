@@ -27,3 +27,11 @@
 
 ### vscode
 1. install vscode extensions: `cat ./vscode-extensions.txt | xargs -L1 code --install-extension`
+
+### scroll reverser
+macOS defaults to "natural scrolling" which makes sense on the trackpad but not with a mouse wheel.
+there's no build-in way to choose different setting for trackpad and mouse, so Scroll Reverser app is used.
+1. ensure scroll-reverser is installed via `brew-cask.txt`
+1. in Scroll Reverser settings, enable scroll reversing just for mouse. disable show in menu bar.
+1. in settings, ensure that scrolling is "natural scrolling" (default)
+
