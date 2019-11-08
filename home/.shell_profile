@@ -17,4 +17,5 @@ export PATH="/usr/local/sbin:$PATH"
 #z
 . $(brew --prefix z)/etc/profile.d/z.sh
 
-export GOPATH=$HOME/dev/go
+# GOPATH will be set by asdf
+# export GOPATH=$HOME/dev/go
