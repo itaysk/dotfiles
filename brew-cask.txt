@@ -16,11 +16,12 @@ docker
 
 # productivity
 simplenote
-zoomus
 whatsapp
 slack
 microsoft-office
 microsoft-teams
+zoomus
+zoomus-outlook-plugin
 
 # misc
 vlc
