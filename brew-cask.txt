@@ -5,6 +5,7 @@ java
 osxfuse
 middleclick
 spectacle
+amethyst
 karabiner-elements
 scroll-reverser
 

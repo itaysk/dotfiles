@@ -35,3 +35,6 @@ there's no build-in way to choose different setting for trackpad and mouse, so S
 1. in Scroll Reverser settings, enable scroll reversing just for mouse. disable show in menu bar.
 1. in settings, ensure that scrolling is "natural scrolling" (default)
 
+### window manager
+I use Amethyst (a tiling window manager) for when plugged in to a big screen, and Spectacle for when using the laptop screen. Both are listed in the brew cask file.
+
