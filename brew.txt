@@ -10,6 +10,7 @@ findutils
 git
 grep
 gnu-sed
+gnu-tar
 gettext
 gawk
 vim
