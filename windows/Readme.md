@@ -23,7 +23,7 @@
 1. update and install basic packages `sudo apt-get update && sudo apt-get install build-essential coreutils wget curl git`
 1. for asdf python build, ensure `zlib` is installed: `sudo apt-get install zlib1g-dev`
 1. install brew for wsl, instructions at `https://docs.brew.sh/Homebrew-on-Linux`
-1. as per brew instructions install gcc `brew install gcc`
+1. as per brew instructions install gcc `brew install patchelf gcc`
 1. Install asdf (so that it can satisfy brew "Requirements" instad of brew installing duplicates): `brew install asdf`
 1. install asdf packages: `./asdf.sh`
 1. review `brew.txt` and `brew-cask.txt`, comment out (using `#`) unneeded packages (note some stuff were installed using asdf, like language runtimes)
