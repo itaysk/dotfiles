@@ -18,7 +18,8 @@
 1. create ssh key: `ssh-keygen`
 1. upload the ssh key to GitHub
 
-### tmux
+### shell
+1. change the default shell to zsh (installed by brew): `command -v zsh | sudo tee -a /etc/shells  && sudo chsh -s $(command -v zsh)`
 1. since I don't use a plugin manager for tmux yet, manually get the single plugin used: `git clone https://github.com/tmux-plugins/tmux-yank ~/.tmux/tmux-yank`
 
 ### vim
