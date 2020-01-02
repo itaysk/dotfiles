@@ -1,3 +1,5 @@
+I use MacOS as my main computer but the command line tools and techniques are relevant for other systems as well. See the [linux](/.linux) and [windows](./windows) folders for more information about that.
+
 ## Getting Started
 1. check for macOS updates
 1. apply `mac-settings.txt`
@@ -7,12 +9,12 @@
 1. run `mac-login.sh` to add apps to startup
 
 ### packages
-1. install brew, instructions at `https://brew.sh`
+1. Install brew, instructions at `https://brew.sh`
 1. Install asdf (so that it can satisfy brew "Requirements" instad of brew installing duplicates): `brew install asdf`
-1. install asdf packages: `./asdf.sh`
-1. review `brew.txt` and `brew-cask.txt`, comment out (using `#`) unneeded packages (note some stuff were installed using asdf, like language runtimes)
-1. install brew packages: `cat ./brew.txt | grep -v '^#' | xargs brew install`
-1. install brew cask packages: `cat ./brew-cask.txt | grep -v '^#' | xargs brew cask install`
+1. Review and install asdf packages: `./asdf.sh`
+1. Review `brew.txt` and `brew-cask.txt`, comment out (using `#`) unneeded packages (note some stuff were installed using asdf, like language runtimes)
+1. Install brew packages: `cat ./brew.txt | grep -v '^#' | xargs brew install`
+1. (only for mac) Install brew cask packages: `cat ./brew-cask.txt | grep -v '^#' | xargs brew cask install`
 
 ### ssh
 1. create ssh key: `ssh-keygen`

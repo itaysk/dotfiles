@@ -15,21 +15,10 @@
 1. run `mackeys.ahk` and add to startup.
 
 ### wsl
+I use Ubuntu server
+
 1. install wsl, instructions at `https://docs.microsoft.com/en-us/windows/wsl/install-win10`
-1. copy from `./home` the relevant files to the home directory. merge `wsl/home/.shell_profile` into `home/.shell_profile` according to the instructions in the file.
-1. source the new shell config, it may error until packages are installed, ignore and source again packages are installed.
-
-#### wsl packages - debian/ubuntu
-1. update and install basic packages `sudo apt-get update && sudo apt-get install build-essential coreutils wget curl git`
-1. for asdf python build, ensure `zlib` is installed: `sudo apt-get install zlib1g-dev`
-1. install brew for wsl, instructions at `https://docs.brew.sh/Homebrew-on-Linux`
-1. as per brew instructions install gcc `brew install patchelf gcc`
-1. Install asdf (so that it can satisfy brew "Requirements" instad of brew installing duplicates): `brew install asdf`
-1. install asdf packages: `./asdf.sh`
-1. review `brew.txt` and `brew-cask.txt`, comment out (using `#`) unneeded packages (note some stuff were installed using asdf, like language runtimes)
-
-#### additional settings in the main (mac) readme
-for setting up ssh, tmux, vim, etc.
+1. Follow instructions for [Linux](./linux)
 
 ### Docker
 Docker engine will not run in WSL, but using Docker for Windows. Docker CLI will be installed in WSL and configure to use the Docker for Windows engine.
