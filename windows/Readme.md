@@ -18,7 +18,7 @@
 I use Ubuntu server
 
 1. install wsl, instructions at `https://docs.microsoft.com/en-us/windows/wsl/install-win10`
-1. Follow instructions for [Linux](./linux)
+1. Follow instructions for [Linux](../linux)
 
 ### Docker
 Docker engine will not run in WSL, but using Docker for Windows. Docker CLI will be installed in WSL and configure to use the Docker for Windows engine.

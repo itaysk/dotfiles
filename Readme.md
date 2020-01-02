@@ -1,4 +1,4 @@
-I use MacOS as my main computer but the command line tools and techniques are relevant for other systems as well. See the [linux](/.linux) and [windows](./windows) folders for more information about that.
+I use MacOS as my main computer but the command line tools and techniques are relevant for other systems as well. See the [linux](./linux) and [windows](./windows) folders for more information about that.
 
 ## Getting Started
 1. check for macOS updates
