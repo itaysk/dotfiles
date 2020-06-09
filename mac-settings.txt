@@ -10,7 +10,10 @@
 			Spotlight: disable all (in favor of Alfred)
 			Input Sources: Select the previous input source - opt + space. this is to relieve ctrl+space for vscode intellisense
 		- Text
-			Spelling: U.S. English
+			- Spelling: U.S. English
+			- unselect "Capitalize words automatically"
+			- unselect "Add period with double-space"
+			- unselect "use smart quotes and brackets"
 	- Accessibility
 		- enable zoom with gesture
 	- Sound
