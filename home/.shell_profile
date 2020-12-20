@@ -12,7 +12,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 #asdf
 . $(brew --prefix asdf)/asdf.sh
-. $(brew --prefix asdf)/etc/bash_completion.d/asdf.bash
 
 #z
 . $(brew --prefix z)/etc/profile.d/z.sh
