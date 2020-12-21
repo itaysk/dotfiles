@@ -1,5 +1,7 @@
 [init]
 	defaultBranch main
+[pull]
+	ff = only
 [core]
 	excludesfile = /Users/itaysk/.gitignore_global
 [user]
