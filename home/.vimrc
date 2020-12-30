@@ -1,5 +1,6 @@
 " Use system clipboard for yanking
 set clipboard=unnamed
+set mouse=a
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
