@@ -1,6 +1,8 @@
 " Use system clipboard for yanking
 set clipboard=unnamed
 set mouse=a
+set hidden
+set hlsearch
 
 call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
