@@ -3,7 +3,7 @@
 [pull]
 	ff = only
 [core]
-	excludesfile = /Users/itaysk/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [user]
 	name = Itay Shakury
 	email = itay@itaysk.com
