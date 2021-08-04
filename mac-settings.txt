@@ -18,5 +18,7 @@
 		- enable zoom with gesture
 	- Sound
 		- Show volume in menu bar
+	- Mission control
+		- unselect "Automatically rearrange Spaces based on most recent use"
 - terminal
 	- disable macOS accent popup: `defaults write -g ApplePressAndHoldEnabled -bool false`
