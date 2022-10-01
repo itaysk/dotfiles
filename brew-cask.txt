@@ -2,29 +2,21 @@
 google-chrome
 alfred
 java
-osxfuse
-middleclick
-spectacle
-amethyst
 karabiner-elements
-scroll-reverser
 
 # dev
 visual-studio-code
 iterm2
-wireshark
 docker
 
 # productivity
-simplenote
 whatsapp
 slack
 microsoft-office
 microsoft-teams
-zoomus
+zoom
 zoomus-outlook-plugin
 
 # misc
 vlc
 qbittorrent
-gimp
