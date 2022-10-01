@@ -11,7 +11,7 @@ alias tmux="tmux -u"
 export PATH="/usr/local/sbin:$PATH"
 
 #asdf
-. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 #z
 . $(brew --prefix z)/etc/profile.d/z.sh
