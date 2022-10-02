@@ -1,24 +1,29 @@
-- Mac settings
-	- Trackpad
-		- enable tap to click
+# System Preference
+
+- Trackpad
+	- Point & Click
+		- Tap to click: Enable 
+- Keyboard
+	- Input Sources
+		- Automatically switch to document's input source: Enable
 	- Keyboard
-		- add Hebrew input
-		- enable automatically switch to document language
 		- Key Repeat: Fast
 		- Delay Until Repeat: Short
-		- Shortcuts
-			Spotlight: disable all (in favor of Alfred)
-			Input Sources: Select the previous input source - opt + space. this is to relieve ctrl+space for vscode intellisense
-		- Text
-			- Spelling: U.S. English
-			- unselect "Capitalize words automatically"
-			- unselect "Add period with double-space"
-			- unselect "use smart quotes and brackets"
-	- Accessibility
-		- enable zoom with gesture
-	- Sound
-		- Show volume in menu bar
-	- Mission control
-		- unselect "Automatically rearrange Spaces based on most recent use"
-- terminal
-	- disable macOS accent popup: `defaults write -g ApplePressAndHoldEnabled -bool false`
+	- Text
+		- Spelling: U.S. English
+		- Capitalize words automatically: Disable
+		- Add period with double-space: Disable
+		- Use smart quotes and brackets: Disable
+- Accessibility
+	- Zoom
+		- enable Use scroll gesture with modifier keys to zoom: ^ Control
+- Sound
+	- Show Sound in menu bar: Enable
+- Mission control
+	- Automatically rearrange Spaces based on most recent use: Disable
+	- Hot Corners
+		- Lower-Right: Disable
+
+
+# Terminal
+	- Disable macOS accent popup: `defaults write -g ApplePressAndHoldEnabled -bool false`
