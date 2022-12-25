@@ -9,6 +9,10 @@
 	- Keyboard
 		- Key Repeat: Fast
 		- Delay Until Repeat: Short
+	- Keyboard shortcuts...
+		- Modifier keys
+		  - (ALL keyboards): CAPS -> ESC
+			- (Durgod): OPT->CMD, CMD->OPT
 	- Text
 		- Spelling: U.S. English
 		- Capitalize words automatically: Disable

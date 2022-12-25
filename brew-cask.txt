@@ -1,8 +1,6 @@
 # basics
 google-chrome
-alfred
 java
-karabiner-elements
 
 # dev
 visual-studio-code
@@ -15,7 +13,6 @@ slack
 microsoft-office
 microsoft-teams
 zoom
-zoomus-outlook-plugin
 
 # misc
 vlc
