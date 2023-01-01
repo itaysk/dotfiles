@@ -10,7 +10,7 @@
 		- Key Repeat: Fast
 		- Delay Until Repeat: Short
 	- Keyboard shortcuts...
-		- Modifier keys
+		- Modifier keys // Additionally, see launch agent for windows menu key mapping
 		  - (ALL keyboards): CAPS -> ESC
 			- (Durgod): OPT->CMD, CMD->OPT
 	- Text

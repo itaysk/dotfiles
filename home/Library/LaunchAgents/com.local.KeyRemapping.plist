@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.local.KeyRemapping</string>
+    <!-- remap keys using MacOS builtin utility set as launch agent. -->
+    <!-- https://developer.apple.com/library/archive/technotes/tn2450/_index.html -->
+    <!-- https://rakhesh.com/mac/using-hidutil-to-map-macos-keyboard-keys/ -->
+    <!-- https://hidutil-generator.netlify.app/ -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/hidutil</string>
+        <string>property</string>
+        <string>--set</string>
+	<!-- map the "windowns menu" key to right option. althought windows menu key is supposed to be 0x76, on my Durgod keyboard it ends up as "Application" key which is 0x65 !-->
+        <string>{"UserKeyMapping":[
+            {
+              "HIDKeyboardModifierMappingSrc": 0x700000065,
+              "HIDKeyboardModifierMappingDst": 0x7000000E6
+            }
+        ]}</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
+
