@@ -22,4 +22,12 @@ yq
 rsync
 tree
 watch
-bats
+bats-core
+
+
+google-chrome
+java
+visual-studio-insiders
+raycast
+drawio
+

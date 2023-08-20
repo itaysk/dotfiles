@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-;swaps windows and alt keys
-;https://superuser.com/questions/1190329/can-i-switch-the-alt-and-ctrl-keys-on-my-keyboard#comment2078769_1202601
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
-"Scancode Map"=hex:00,00,00,00,00,00,00,00,05,00,00,00,38,00,5b,e0,5b,e0,38,00,38,e0,5b,e0,5c,e0,38,e0,00,00,00,00

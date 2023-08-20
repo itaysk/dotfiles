@@ -4,28 +4,31 @@
 	- Point & Click
 		- Tap to click: Enable 
 - Keyboard
+	- Key Repeat: Fast
+	- Keyboard navigation: Enable
+	- Delay Until Repeat: Short
 	- Input Sources
 		- Automatically switch to document's input source: Enable
-	- Keyboard
-		- Key Repeat: Fast
-		- Delay Until Repeat: Short
+		- Use smart quotes and dashes: Disable
 	- Keyboard shortcuts...
-		- Modifier keys // Additionally, see launch agent for windows menu key mapping
-		  - (ALL keyboards): CAPS -> ESC
-			- (Durgod): OPT->CMD, CMD->OPT
-	- Text
-		- Spelling: U.S. English
-		- Capitalize words automatically: Disable
-		- Add period with double-space: Disable
-		- Use smart quotes and brackets: Disable
+		- Modifier keys
+			- Caps Lock Key -> Escape
+			- (On external keyboard): Option Key -> Command Key, Command Key -> Option Key
 - Accessibility
 	- Zoom
 		- enable Use scroll gesture with modifier keys to zoom: ^ Control
 - Sound
-	- Show Sound in menu bar: Enable
-- Mission control
-	- Automatically rearrange Spaces based on most recent use: Disable
-	- Hot Corners
+	- Play feedback when volume is changed: Enable
+- Control Center
+	- Sound: Always show in menu bar
+	- Wi-Fi: Don't show in menu bar
+	- Spotlight: Don't show in menu bar
+- Desktop & Dock
+	- Mission control
+		- Automatically rearrange Spaces based on most recent use: Disable
+		- When switching to an application, switch to a Space with open windows for the application: Enable
+		- Group windows by application: Enable
+	- Hot Corners...
 		- Lower-Right: Disable
 
 

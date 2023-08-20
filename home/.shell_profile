@@ -1,18 +1,8 @@
-# common for bash and zsh
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-LC_CTYPE=en_US.UTF-8
-LC_ALL=en_US.UTF-8
 export EDITOR=vim
+export PATH="/Users/itaysk/bin:$PATH"
 
-# aliases
+. "$(brew --prefix z)/etc/profile.d/z.sh"
+
 alias ll="ls -laGH"
-alias tmux="tmux -u"
-
-export PATH="/usr/local/sbin:$PATH"
-
-#asdf
-. $(brew --prefix asdf)/libexec/asdf.sh
-
-#z
-. $(brew --prefix z)/etc/profile.d/z.sh
-

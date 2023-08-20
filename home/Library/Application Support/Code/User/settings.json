@@ -3,5 +3,14 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.hovers.enabled": false,
     "gitlens.codeLens.enabled": false,
-    "gitlens.statusBar.enabled": false
+    "gitlens.statusBar.enabled": false,
+    "spellright.language": [
+        "en"
+      ],
+    "spellright.documentTypes": [
+      "markdown",
+      "latex",
+      "plaintext"
+    ],
+    "editor.guides.bracketPairs": true
 }
