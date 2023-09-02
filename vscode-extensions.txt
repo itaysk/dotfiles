@@ -16,4 +16,4 @@ ms-vscode.Go
 zxh404.vscode-proto3
 timonwong.shellcheck
 redhat.vscode-yaml
-bungcip.better-toml
+tamasfe.even-better-toml
