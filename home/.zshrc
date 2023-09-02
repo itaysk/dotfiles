@@ -1,4 +1,4 @@
-. ~/.shell_profile
+. ~/.shellrc
 
 # ignore common commands from history logging
 export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"

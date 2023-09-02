@@ -1,4 +1,4 @@
-. ~/.shell_profile
+. ~/.shellrc
 
 set -o vi
 
