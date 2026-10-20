@@ -34,3 +34,10 @@
 
 # Terminal
 	- Disable macOS accent popup: `defaults write -g ApplePressAndHoldEnabled -bool false`
+
+# Spotlight
+If using TinyCast or another file indexer, disable spotlight
+
+```shell
+sudo mdutil -a -i off
+```
